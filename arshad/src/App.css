@@ -1,0 +1,157 @@
+.doc{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+}
+.hidden{
+visibility: hidden;
+}
+
+.docClicked{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+
+}
+
+.flex{
+  display: flex;
+  gap: 100px;
+    margin-top: 35px;
+  
+}
+
+@media screen and (max-width: 1800px) {
+ .flex1{
+  
+  gap: 62px;
+    margin-top: 35px;
+  
+}
+}
+
+@media screen and (max-width: 3000px) {
+.flex1{
+  display: flex;
+  gap: 62px;
+    margin-top: 35px;
+  
+}
+}
+.know{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+}
+.knowClicked{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+
+
+
+.bigContainer {
+  background: #e5e5e5;
+  padding: 56px 56px 0px 57.45px;
+  height: 100vh;
+}
+.docTitle {
+  background: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 29px;
+
+}
+.title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #042747;
+
+  padding: 20px 0px 20px 0px;
+}
+
+.mainBody {
+  background: #e5e5e5;
+}
+.headingText {
+  position: absolute;
+  width: 431px;
+  height: 18px;
+  left: 79px;
+  top: 109px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #333b3f;
+}
+
+/* DropComponent */
+.dropdownDesign {
+  width: 444px;
+  height: 40px;
+}
+.imagesOn{
+visibility: visible;
+padding: 40px 0 40px 0;
+}
+.imagesOf{
+visibility: hidden;
+}
+
+.btn-get {
+  font-family: "Inter";
+  font-style: normal;
+
+  font-size: 16px;
+  margin-left: 40px;
+  line-height: 19px;
+  padding: 8px 19px 8px 19px;
+  color: #ffffff;
+  background: #2977ff;
+  border-color: #2977ff;
+  border-radius: 4px;
+}
+
+
+.btn-getD {
+  font-family: "Inter";
+  font-style: normal;
+cursor: not-allowed;
+  font-size: 16px;
+  margin-left: 40px;
+  line-height: 19px;
+  padding: 8px 19px 8px 19px;
+  color: #ffffff;
+  background: #2977ff;
+  border-color: #2977ff;
+  border-radius: 4px;
+}
+
+.imageStyle{
+  height: 400px;
+  width: 841px;
+}
+
+.flexbox {
+  display: flex;
+  margin-top: 50px;
+ 
+}
